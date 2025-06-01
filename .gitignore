@@ -1,0 +1,86 @@
+# General editor and system files
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+generated_plugin_registrant.dart
+**/doc/api/
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/.dart_tool/
+
+# macOS
+macos/Flutter/Flutter.framework
+macos/Flutter/Flutter.podspec
+macos/Pods/
+macos/.symlinks/
+macos/Podfile.lock
+macos/.dart_tool/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Secrets and credentials
+.env
+android/key.properties
+*.keystore
+*.jks
+*.pem
+*.crt
+*.key
+
+# Firebase / Supabase
+android/app/google-services.json
+firebase.json
+firebase_options.dart
+.supabase/
+supabase/.env
+supabase/.temp/
+supabase/config.toml
+supabase/functions/.env
+
+# Obfuscation / symbol files
+app.*.symbols
+app.*.map.json
+
+# Test and coverage output
+coverage/
+coverage.lcov
+test/*.tmp
